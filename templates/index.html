@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Portfólio</h1>
+        <nav>
+            <a href="{{ url_for('home') }}">Início</a>
+            <a href="{{ url_for('portfolio') }}">Projetos</a>
+            <a href="{{ url_for('contato') }}">Contato</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Sobre Mim</h2>
+        <p>{{ sobre.descricao }}</p>
+    </section>
+</body>
+</html>

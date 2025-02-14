@@ -1,0 +1,21 @@
+{
+    "sobre": {
+        "nome": "Seu Nome",
+        "descricao": "Sou um desenvolvedor especializado em Python.",
+        "email": "seuemail@example.com",
+        "linkedin": "https://linkedin.com/in/seuperfil",
+        "github": "https://github.com/seuperfil"
+    },
+    "projetos": [
+        {
+            "nome": "Projeto 1",
+            "descricao": "Descrição breve do projeto 1.",
+            "link": "https://github.com/seuperfil/projeto1"
+        },
+        {
+            "nome": "Projeto 2",
+            "descricao": "Outro projeto incrível que fiz.",
+            "link": "https://github.com/seuperfil/projeto2"
+        }
+    ]
+}
