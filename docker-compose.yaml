@@ -16,7 +16,7 @@ services:
         condition: on-failure
       labels:
         - "traefik.enable=true"
-        - "traefik.http.routers.portifolio.rule=Host(`portifolio.ra4.com.br`)"
+        - "traefik.http.routers.portifolio.rule=Host(`ra4.com.br`)"
         - "traefik.http.routers.portifolio.entrypoints=websecure"
         - "traefik.http.routers.portifolio.tls.certresolver=letsencryptresolver"
         - "traefik.http.services.portifolio.loadbalancer.server.port=5000"

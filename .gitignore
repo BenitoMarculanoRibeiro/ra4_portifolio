@@ -1,0 +1,7 @@
+1 - traefik.yaml
+2 - portainer.yaml
+3 - redis.yaml
+4 - postgres.yaml
+5 - evolution-completo -V2.yaml
+docker-compose.yaml
+prompt.txt
